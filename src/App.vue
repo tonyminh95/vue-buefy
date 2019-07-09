@@ -1,28 +1,22 @@
 <template>
 	<div id="app">
-		<dashboard-layout></dashboard-layout>
+		<div class="main-content columns is-fullheight">
+			<side-menu></side-menu>
+			<!-- <div class="container column is-10">
+				<router-view/>
+			</div> -->
+		</div>
 	</div>
 </template>
 
 <script>
-	import DashboardLayout from './layout/DashboardLayout'
+	import SideMenu from './layout/TheSideMenu'
 
 	export default {
 		name: 'app',
 
 		components: {
-			DashboardLayout
+			SideMenu
 		}
 	}
 </script>
-
-<style>
-	#app {
-		font-family: 'Avenir', Helvetica, Arial, sans-serif;
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
-		text-align: center;
-		color: #2c3e50;
-		margin-top: 60px;
-	}
-</style>
