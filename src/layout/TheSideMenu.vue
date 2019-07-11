@@ -22,7 +22,7 @@
                     <a href="#" :class="{ 'is-active': activeNum == 11 }" @click="changeActiveLink(11)">
                     <span class="icon is-small"><i class="fa fa-link"></i></span> Qiita
                     </a>
-                </li>sdasddas
+                </li>
                 </ul>
             </li>
             <li>
