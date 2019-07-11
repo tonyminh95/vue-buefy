@@ -25,7 +25,7 @@
                 </li>
                 </ul>
             </li>
-            <li>
+            <li>a
                 <a href="#" :class="{ 'is-active': activeNum == 13 }" @click="changeActiveLink(13)">
                 <span class="icon"><i class="fa fa-info"></i></span> About
                 </a>
