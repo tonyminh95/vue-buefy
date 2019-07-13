@@ -13,7 +13,7 @@
                 <span class="icon"><i class="fa fa-book"></i></span> Other
                 </a>
                 <ul>
-                <li>
+                <li>jhjkhkj
                     <a href="#" :class="{ 'is-active': activeNum == 10 }" @click="changeActiveLink(10)">
                     <span class="icon is-small"><i class="fa fa-link"></i></span> Twitter
                     </a>
